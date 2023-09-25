@@ -79,6 +79,7 @@ const Team = () => {
             borderBottom: "none"
           },
           "& .name-column--cell": {
+            borderBottom: "none",
             color: colors.greenAccent[300]
           },
           "& .MuiDataGrid-columnHeaders": {
