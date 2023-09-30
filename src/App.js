@@ -13,7 +13,7 @@ import Form from "./scenes/form";
 // import Pie from "./scenes/pie";
 // import FAQ from "./scenes/faq";
 // import Geography from "./scenes/geography";
-// import Calendar from "./scenes/calendar";
+import Calendar from "./scenes/calendar";
 
 
 function App() {
@@ -33,12 +33,12 @@ function App() {
               <Route path="/contacts" element={<Contacts />} />
               <Route path="/invoices" element={<Invoices />} />
               <Route path="/form" element={<Form />} />
+              <Route path="/calendar" element={<Calendar />} />
               {/* <Route path="/bar" element={<Bar />} /> */}
               {/* <Route path="/pie" element={<Pie />} /> */}
               {/* <Route path="/line" element={<Line />} /> */}
               {/* <Route path="/faq" element={<Faq />} /> */}
               {/* <Route path="/geography" element={<Geography />} /> */}
-              {/* <Route path="/calendar" element={<Calendar />} /> */}
             </Routes>
           </main>
         </div>

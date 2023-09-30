@@ -62,7 +62,7 @@ const Contacts = () => {
             border: "none",
           },
           "& .MuiDataGrid-cell": {
-            borderBottom: "none"
+            border: "none",
           },
           "& .name-column--cell": {
             border: "none",
